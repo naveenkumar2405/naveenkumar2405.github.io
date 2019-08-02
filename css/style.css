@@ -1757,18 +1757,20 @@ body {
 }
 
 .bar {
-  background-color: rgb(216, 238, 240);
+  background-color: rgb(221, 236, 250);
   padding: 2px;
   border-radius: 15px;
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 18px;
   color: rgb(255, 255, 255);
+  font-style: italic;
   font-weight: bold;
   text-shadow: 1px 1px 1px rgb(13, 14, 13);
+  line-height: 1.9;
 }
 .bar::before {
   content: attr(data-skill);
-  background-color: #fd0606bf;
+  background-color: #5d03a2dc;
   display: inline-block;
   padding: 5px 0 5px 10px;
   border-radius: inherit;
@@ -1779,26 +1781,41 @@ body {
 }
 
 .bar.front::before {
-  background-color: #088eac;
+  background-color: #027b96;
 }
 .bar.back::before {
-  background-color: #035f3a;
+  background-color: #037346;
 }
 
 .bar.learning::before {
-  width: calc(75% - 10px);
+  width: calc(65% - 10px);
+}
+.bar.learning1::before {
+  background-color: #870101;
+  width: calc(55% - 10px);
 }
 .bar.basic::before {
-  width: calc(65% - 10px);
+  width: calc(60% - 10px);
+}
+.bar.basic1::before {
+  background-color: rgb(2, 84, 39);
+  width: calc(50% - 10px);
 }
 .bar.intermediate::before {
-  width: calc(65% - 10px);
+  background-color: rgb(228, 202, 7);
+  width: calc(57% - 10px);
 }
-.bar.advanced::before {
-  width: calc(80% - 10px);
+.bar.advanced2::before {
+  background-color: #050e6fdc;
+  width: calc(67% - 10px);
 }
+.bar.advanced4::before {
+  background-color: #25b807dc;
+  width: calc(58% - 10px);
+}
+
 .bar.expert::before {
-  width: calc(101% - 10px);
+  width: calc(72% - 10px);
 }
 
 .subtitle {
