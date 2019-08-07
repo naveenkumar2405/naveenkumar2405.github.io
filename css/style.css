@@ -1796,7 +1796,7 @@ body {
 }
 .bar.learning2::before {
   background-color: #05bafc;
-  width: calc(55% - 10px);
+  width: calc(45% - 10px);
 }
 .bar.basic::before {
   width: calc(60% - 10px);
